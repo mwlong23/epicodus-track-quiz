@@ -33,6 +33,9 @@ margin-bottom: 0px;
    top: -28px;
 }
 
+.results img {
+  width: 30%;
+}
 .jumbotron{
   border-radius: 0px;
   margin-top: 0px;
