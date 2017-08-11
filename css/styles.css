@@ -1,3 +1,48 @@
 .well {
   display: none;
+
+}
+.btn{
+  background-color: #029ACF;
+  background-image: linear-gradient(#02a5de, #029ACF 6%, #028fc0);
+  background-repeat: no-repeat;
+  border: 1px solid #02749c;
+  color: white;
+}
+#site-image{
+  max-height:71px;
+}
+.body{
+  color:#666;
+  background-color:#969696;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.jumbotron h3{
+  color: #00b3b4;
+}
+
+.navbar {
+ border-radius: 0px;
+margin-bottom: 0px;
+}
+
+.fa-3x{
+  position: relative;
+   left: -22px;
+   top: -28px;
+}
+
+.jumbotron{
+  border-radius: 0px;
+  margin-top: 0px;
+  background-color: black;
+  color: white;
+}
+
+#bottomJumbotron{
+  margin-bottom: 0px;
+  background-color: #00b3b4;
+  padding-bottom: 100px;
+  border-color: #666;
 }
