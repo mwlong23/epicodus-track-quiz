@@ -11,27 +11,85 @@
   <body>
     <div class="container">
       <h1>Hello, world.</h1>
-      <div class="quiz">
+      <div>
+        <form id="quiz">
+          <div>
+            <h2>Which of these technologies most excites you?</h2>
+            <select class="form-control" id="question1">
+              <option></option>
+              <option>Fox</option>
+              <option>Lion</option>
+              <option>Fish</option>
+              <option>Beast</option>
+            </select>
+          </div>
+          <div>
+            <h2>Which of the following services do you use more often?</h2>
+            <select class="form-control" id="question2">
+              <option></option>
+              <option>Fox</option>
+              <option>Lion</option>
+              <option>Fish</option>
+              <option>Beast</option>
+            </select>
+          </div>
+          <div>
+            <h2>Which of the following statements do you most agree with?</h2>
+            <select class="form-control" id="question3">
+              <option></option>
+              <option>Fox</option>
+              <option>Lion</option>
+              <option>Fish</option>
+              <option>Beast</option>
+            </select>
+          </div>
+          <div class="radio">
+            <h2>Which of these statements do you most agree with?</h2>
+            <label>
+              <input type="radio" name="answer4" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer4" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer4" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="startDate">Date of birth:</label>
+            <input id="startDate" class="form-control" type="date">
+          </div>
+          <button type="submit" class="btn">Show Me My Results.</button>
+        </form>
 
       </div>
+
+      <!-- ########## HIDDEN RESULTS SECTION ########## -->
       <div class="results">
         <div class="well" id="result1">
           <img src="" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="well" id="result1">
+        <div class="well" id="result2">
           <img src="" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="well" id="result1">
+        <div class="well" id="result3">
           <img src="" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="well" id="result1">
+        <div class="well" id="result4">
           <img src="" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="well" id="result1">
+        <div class="well" id="result5">
           <img src="" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
