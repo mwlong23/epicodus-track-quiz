@@ -7,11 +7,13 @@ $(document).ready(function(){
     var answer3 = $("#question3").val();
     var answer4 = $("input:radio[name=answer4]:checked").val();
     var answer5 = $("#startDate").val();
+    var blankForm = ""
     alert(answer1+" "+answer2+" "+answer3+" "+answer4+" "+answer5+" ")
 
 
     if (answer1 === "" || answer2 === "" || answer3 === ""){
       alert("You are missing one or more answers, please answer all questions!");
+      blankForm = "invalidInput";
 
 
     } else if (answer4 === "stillConsidering"){
@@ -37,7 +39,11 @@ $(document).ready(function(){
       $("#result7").show();
     }
 
-    $("form#quiz").hide();
+    if(blankForm ===""){
+      $("form#quiz").hide();
+    } else {
+      
+    }
 
   });
 });
