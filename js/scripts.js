@@ -8,32 +8,27 @@ $(document).ready(function(){
     var answer4 = $("input:radio[name=answer4]:checked").val();
     var answer5 = $("#startDate").val();
     var blankForm = ""
-    alert(answer1+" "+answer2+" "+answer3+" "+answer4+" "+answer5+" ")
 
+    // debugging alert below to show values of answer variables
+    // alert(answer1+" "+answer2+" "+answer3+" "+answer4+" "+answer5+" ")
+
+// survey question to epicodus track pairing logic
 
     if (answer1 === "" || answer2 === "" || answer3 === ""){
       alert("You are missing one or more answers, please answer all questions!");
       blankForm = "invalidInput";
-
-
     } else if (answer4 === "stillConsidering"){
       $("#result1").show();
-
     } else
     if(answer4 === "nightTrack"){
       $("#result2").show();
-
     }else if(answer3=== "I've always been interested in making my own Wordpress themes!"){
       $("#result3").show();
       $("#result5").show();
-
     }else if(answer1 ==="I enjoy organizing things, simplifying them and Beautifying them." || answer2 ==="Looking for new and colorful ways to express myself." ){
       $("#result3").show();
       $("#result4").show();
       $("#result5").show();
-
-
-
     }else if(answer2 ==="Feeling like websites I visit are lacking features I could make." || answer3 === "I surf the internet more than I use apps on my phone and I've always wondered what was under the hood and tinkering."){
       $("#result5").show();
       $("#result6").show();
@@ -50,12 +45,13 @@ $(document).ready(function(){
       $("#result7").show();
 
     }
-
+// Prevents a blank form submission from removing survey content
     if(blankForm ===""){
       $("form#quiz").hide();
     } else {
 
     }
+    $(".results h2").show();
 
   });
 });
